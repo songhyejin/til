@@ -16,9 +16,6 @@ const readline = () => {
     return output;
 }
 
-var binaryText = readline();
-var firstBit = binaryText[0];
-
 const outputCode = (firstBit) => {
     var output = "";
     if(firstBit == "0") {
@@ -41,4 +38,6 @@ const outputCode = (firstBit) => {
     console.debug("output ::", output);
 }
 
-outputCode(currentSign);
+var binaryText = readline();
+var firstBit = binaryText[0];
+outputCode(firstBit);

@@ -1,6 +1,6 @@
 const main = () => {
     let count = 0;
-    while (count < 10) {
+    while (count < 10) { //임시
         var maxH = 0;
         var maxIndex = 0;
     
